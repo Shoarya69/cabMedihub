@@ -6,7 +6,7 @@
   "author": "Shoarya",
   "website": "",
   "credits": "electronjs.org",
-  "license": "MIT",
+  "license": "UNLICENSED",
   "private": true,
   "main": "start.js",
   "build": {

@@ -33,9 +33,9 @@ function showAbout() {
   const options = {
     applicationName: `${appName}`,
     applicationVersion: `v${appVersion}`,
-    copyright: `Developed by Shoarya · Powered by CaliberX`,
+    copyright: `© ${appConfig.COPYRIGHT_YEAR} ${appConfig.COPYRIGHT_HOLDER}. All rights reserved.`,
     version: `v${appVersion}`,
-    authors: ["Shoarya"],
+    authors: ["Shoarya", "CaliberX"],
     website: pkg.website,
     iconPath: iconPath,
   };

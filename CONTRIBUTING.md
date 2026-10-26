@@ -58,7 +58,7 @@ Before contributing, check the issue tracker for existing issues. If your issue 
 
 ## License
 
-By contributing to this project, you agree that your contributions will be licensed under the project's [LICENSE](./LICENSE).
+By contributing, you assign your contribution to CaliberX / Shoarya. It is covered by the [CaliberX Proprietary License](./LICENSE). Do not remove copyright or credit notices. Do not redistribute or rebrand the project.
 
 ## Code of Conduct
 

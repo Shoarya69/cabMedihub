@@ -10,8 +10,15 @@ permissions:
   pull-requests: write
 
 jobs:
+  guard:
+    uses: ./.github/workflows/guard.yml
+    permissions:
+      contents: read
+
   dependabot-automerge:
+    needs: guard
     if: >-
+      needs.guard.outputs.enabled == 'true' &&
       github.actor == 'dependabot[bot]' &&
       github.event.pull_request.user.login == 'dependabot[bot]' &&
       github.event.pull_request.draft == false

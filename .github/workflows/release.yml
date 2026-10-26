@@ -11,7 +11,14 @@ permissions:
   contents: write
 
 jobs:
+  guard:
+    uses: ./.github/workflows/guard.yml
+    permissions:
+      contents: read
+
   release:
+    needs: guard
+    if: needs.guard.outputs.enabled == 'true'
     runs-on: ${{ matrix.os }}
 
     strategy:

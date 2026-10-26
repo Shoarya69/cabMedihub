@@ -1,0 +1,36 @@
+name: Guard
+
+on:
+  workflow_call:
+    outputs:
+      enabled:
+        description: True only when .env has GITHUB_FLOWS=true
+        value: ${{ jobs.check.outputs.enabled }}
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    outputs:
+      enabled: ${{ steps.flag.outputs.enabled }}
+    steps:
+      - name: Check out Git repository
+        uses: actions/checkout@v4
+
+      - name: Read GITHUB_FLOWS from .env
+        id: flag
+        shell: bash
+        run: |
+          enabled=false
+          if [ -f .env ]; then
+            value=$(grep -E '^[[:space:]]*GITHUB_FLOWS=' .env | tail -n 1 | cut -d= -f2- | tr -d "[:space:]\"'" | tr '[:upper:]' '[:lower:]')
+            if [ "$value" = "true" ]; then
+              enabled=true
+            fi
+          fi
+          echo "enabled=$enabled" >> "$GITHUB_OUTPUT"
+          if [ "$enabled" != "true" ]; then
+            echo "GITHUB_FLOWS is not true. This GitHub flow will not run."
+          fi

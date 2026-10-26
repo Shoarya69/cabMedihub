@@ -5,7 +5,14 @@ on:
     types: [opened]
 
 jobs:
+  guard:
+    uses: ./.github/workflows/guard.yml
+    permissions:
+      contents: read
+
   summary:
+    needs: guard
+    if: needs.guard.outputs.enabled == 'true'
     runs-on: ubuntu-latest
     permissions:
       issues: write

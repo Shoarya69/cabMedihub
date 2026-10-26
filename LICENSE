@@ -1,6 +1,61 @@
-MIT License
+CaliberX Proprietary License
 
-Copyright (c) 2023 Nsubuga Derrick
+Copyright (c) 2026 CaliberX / Shoarya. All rights reserved.
+
+cabMedihub, including the cabMedihub name, CaliberX branding, and all
+modifications, additions, and arrangement made by CaliberX / Shoarya, is
+proprietary software owned by Shoarya (CaliberX).
+
+1. Grant
+
+You may use this software only to run your own pharmacy or business, and you
+may keep a private backup of the copy you received. That permission is
+personal to you. It is not a sale of the software.
+
+2. Restrictions
+
+Without prior written permission from Shoarya (CaliberX), you may not:
+
+- sell, rent, sublicense, publish, or redistribute this software, in source
+  or binary form, modified or unmodified;
+- remove, hide, or change the CaliberX / Shoarya copyright, credit, or
+  license notices;
+- rebrand, white-label, or present this software as your own product or as
+  the product of anyone other than CaliberX / Shoarya;
+- release this software or a derivative of the CaliberX / Shoarya work under
+  an open-source or other license;
+- use the names CaliberX, cabMedihub, or Shoarya to endorse or promote a
+  derivative.
+
+3. Contributions
+
+Any contribution you submit to this project is assigned to CaliberX / Shoarya
+and is licensed under this license. You confirm that you have the right to
+make that assignment.
+
+4. Upstream code
+
+Portions of this project are derived from third-party software that remains
+under the MIT License. Those copyright notices and permission terms are
+reproduced below and must stay with those portions. They do not relicense
+the CaliberX / Shoarya work, the cabMedihub name, or the CaliberX branding.
+
+5. Disclaimer
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
+CALIBERX, SHOARYA, OR THE UPSTREAM COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
+DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
+OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE
+USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+---
+
+Upstream notices (MIT). Do not remove.
+
+Copyright (c) 2023 Nsubuga Derrick (PharmaSpot)
+Copyright for earlier portions: tngoman/Store-POS and its contributors
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,3 +74,7 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+Third-party libraries under assets/plugins and node_modules keep their own
+licenses (MIT, SIL OFL, and others). Those notices are not changed by this
+file.

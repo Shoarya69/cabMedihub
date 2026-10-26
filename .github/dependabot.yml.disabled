@@ -1,0 +1,11 @@
+# Dependabot does not read .env, so this file is not named dependabot.yml.
+# GitHub will not run Dependabot while it stays disabled.
+# To turn it on later, set GITHUB_FLOWS=true in .env and rename this file to dependabot.yml.
+
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 0

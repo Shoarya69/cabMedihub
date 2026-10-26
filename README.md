@@ -74,14 +74,18 @@ https://github.com/user-attachments/assets/9b066b96-f06c-4b37-8211-58fd1fea5f01
   
 ## Credits
 
+Copyright (c) 2026 CaliberX / Shoarya. All rights reserved.
+
 Developed by Shoarya. Powered by CaliberX.
 
-Based on [PharmaSpot](https://github.com/drkNsubuga/PharmaSpot) (MIT), which was adapted from [tngoman/Store-POS](https://github.com/tngoman/Store-POS). 
+Based on [PharmaSpot](https://github.com/drkNsubuga/PharmaSpot) (MIT), which was adapted from [tngoman/Store-POS](https://github.com/tngoman/Store-POS). Those upstream portions stay under MIT. Their notices are kept in [LICENSE](LICENSE).
 
 ## Contributing
 
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change. Take a moment to review [CONTRIBUTING.md](CONTRIBUTING.md).
+Pull requests are accepted only when the contributor assigns the contribution to CaliberX / Shoarya. For major changes, open an issue first. Read [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## License
 
-cabMedihub is licensed under the [MIT License](LICENSE).
+Copyright (c) 2026 CaliberX / Shoarya. All rights reserved.
+
+cabMedihub is proprietary software under the [CaliberX Proprietary License](LICENSE). You may run it for your own business. You may not sell it, redistribute it, rebrand it, or strip the CaliberX / Shoarya credit without written permission from Shoarya.
