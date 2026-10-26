@@ -217,6 +217,38 @@ overflow-y:scroll
   margin-bottom:15px;
   align-items: center;
 }
+
+.brand-name {
+  margin: 4px 0 18px;
+  text-align: center;
+  font-size: 34px;
+  font-weight: 800;
+  letter-spacing: -0.6px;
+  line-height: 1;
+  font-family: "Segoe UI", "Trebuchet MS", sans-serif;
+}
+
+.brand-cab { color: #148f9a; }
+.brand-medi { color: #1b3a4b; }
+.brand-hub { color: #2faf7a; }
+
+.brand-name::after {
+  content: "";
+  display: block;
+  width: 46px;
+  height: 3px;
+  margin: 10px auto 0;
+  border-radius: 3px;
+  background: linear-gradient(90deg, #148f9a, #2faf7a);
+}
+
+.brand-credit {
+  margin: 16px 0 0;
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #7a8790;
+}
 .login-page {
    height: 100vh;
     min-height: 100%;
@@ -288,6 +320,7 @@ overflow-y:scroll
   width: 100vw;
   height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: rgba(255, 255, 255, 0.8);
@@ -314,10 +347,14 @@ overflow-y:scroll
 }
 
 .splash h1 {
-/*  color: #fff;*/
-  font-size: 2em;
+  font-size: 1.35em;
   text-align: center;
-  margin-top: 100px; /* Adjust distance between image and text */
+  margin-top: 8px;
+}
+
+.splash .brand-name {
+  font-size: 52px;
+  margin-bottom: 8px;
 }
 
 .content {

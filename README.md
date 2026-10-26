@@ -1,10 +1,7 @@
 
-# PharmaSpot Point of Sale
-![GitHub package.json version](https://img.shields.io/github/package-json/v/drkNsubuga/PharmaSpot) ![GitHub all releases](https://img.shields.io/github/downloads/drkNsubuga/PharmaSpot/total) [![Build](https://github.com/drkNsubuga/PharmaSpot/actions/workflows/build.yml/badge.svg)](https://github.com/drkNsubuga/PharmaSpot/actions/workflows/build.yml) [![Release](https://github.com/drkNsubuga/PharmaSpot/actions/workflows/release.yml/badge.svg)](https://github.com/drkNsubuga/PharmaSpot/actions/workflows/release.yml) [![GitHub issues](https://img.shields.io/github/issues/drkNsubuga/PharmaSpot)](https://github.com/drkNsubuga/PharmaSpot) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/drkNsubuga/PharmaSpot/blob/main/LICENSE)
+# cabMedihub
 
-![PharmaSpot Logo](assets/images/logo.svg)
-
-PharmaSpot is a cross-platform Point of Sale system designed for pharmacies and built to streamline operations and enhance customer service.
+cabMedihub is a pharmacy point of sale. Powered by CaliberX. Developed by Shoarya.
 
 ## Features
 
@@ -51,17 +48,17 @@ https://github.com/user-attachments/assets/9b066b96-f06c-4b37-8211-58fd1fea5f01
 
 | **Point of Sale** |  **Payment Point** |
 |--|--|
-|<img src="screenshots/pos.png" alt="PharmaSpot Demo - POS" width="80%"/>  |<img src="screenshots/payment.png" alt="PharmaSpot Demo - Payment" width="80%"/>|
+|<img src="screenshots/pos.png" alt="cabMedihub Demo - POS" width="80%"/>  |<img src="screenshots/payment.png" alt="cabMedihub Demo - Payment" width="80%"/>|
 | **Receipt** |  **Transactions** |
-| <img src="screenshots/receipt.png" alt="PharmaSpot Demo-Receipt" width="80%"/>| <img src="screenshots/transactions.png" alt="PharmaSpot Demo - Transactions" width="80%"/>|
+| <img src="screenshots/receipt.png" alt="cabMedihub Demo - Receipt" width="80%"/>| <img src="screenshots/transactions.png" alt="cabMedihub Demo - Transactions" width="80%"/>|
 | **Status Alerts** | **More on the Roadmap** |
-|<img src="screenshots/alerts.png" alt="PharmaSpot Demo - Status Alerts" width="80%"/>| <ul><li>Auto Updates</li><li>Back up</li><li>Restore</li><li>Export to excel</li></ul>
+|<img src="screenshots/alerts.png" alt="cabMedihub Demo - Status Alerts" width="80%"/>| <ul><li>Auto Updates</li><li>Back up</li><li>Restore</li><li>Export to excel</li></ul>
 
 
 ## Getting Started
-- Download [PharmaSpot](https://github.com/drkNsubuga/PharmaSpot/releases/latest)
+- Download cabMedihub
 - Unzip the package to a location of your choice.
-- Click the ``PharmaSpot`` executable in the folder
+- Click the ``cabMedihub`` executable in the folder
 - Login for default user:
 
 	- ``username:`` admin
@@ -77,14 +74,14 @@ https://github.com/user-attachments/assets/9b066b96-f06c-4b37-8211-58fd1fea5f01
   
 ## Credits
 
-Adapted from [tngoman](https://github.com/tngoman/Store-POS).
+Developed by Shoarya. Powered by CaliberX.
 
-Feel free to report any issues or suggest enhancements via [GitHub Issues](https://github.com/drkNsubuga/PharmaSpot/issues). 
+Based on [PharmaSpot](https://github.com/drkNsubuga/PharmaSpot) (MIT), which was adapted from [tngoman/Store-POS](https://github.com/tngoman/Store-POS). 
 
 ## Contributing
 
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change. Take a moment to review the [Contributing Guidelines](https://github.com/drkNsubuga/PharmaSpot/blob/main/CONTRIBUTING.md).
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change. Take a moment to review [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## License
 
-PharmaSpot Point of Sale is licensed under the [MIT License](https://github.com/drkNsubuga/PharmaSpot/blob/main/LICENSE).
+cabMedihub is licensed under the [MIT License](LICENSE).

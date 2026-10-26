@@ -33,11 +33,9 @@ function showAbout() {
   const options = {
     applicationName: `${appName}`,
     applicationVersion: `v${appVersion}`,
-    copyright: `Copyright © ${
-      appConfig.COPYRIGHT_YEAR
-    }-${new Date().getFullYear()} ${pkg.author}`,
+    copyright: `Developed by Shoarya · Powered by CaliberX`,
     version: `v${appVersion}`,
-    authors: [pkg.author],
+    authors: ["Shoarya"],
     website: pkg.website,
     iconPath: iconPath,
   };
@@ -50,7 +48,7 @@ function getDocs() {}
 function sendFeedback() {}
 
 function checkForUpdates() {
-  if (!isPackaged) {
+  if (!isPackaged || !updateServer) {
     console.log(`Skipping update check in development mode`);
     return;
   }

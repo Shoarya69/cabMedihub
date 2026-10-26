@@ -42,8 +42,8 @@ module.exports = {
       name: '@electron-forge/publisher-github',
       config: {
         repository: {
-          owner: 'drkNsubuga',
-          name: 'PharmaSpot',
+          owner: 'Shoarya69',
+          name: 'cabMedihub',
           draft: true,
         },
       },

@@ -25,6 +25,7 @@ function createWindow() {
     mainWindow = new BrowserWindow({
         width: width,
         height: height,
+        title: "cabMedihub",
         frame: true,
         webPreferences: {
             nodeIntegration: true,
